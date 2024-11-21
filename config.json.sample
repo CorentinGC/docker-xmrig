@@ -1,9 +1,11 @@
 {
     "autosave": false,
-    "cpu": true,
+    "cpu": {
+        "enabled": true,
+        "rx": [-1, -1, -1, -1],
+    },
     "opencl": false,
     "cuda": false,
-    "max-threads-hint": "100%",
     "http": {
         "enabled": true,
         "host": "0.0.0.0",
