@@ -1,0 +1,9 @@
+name: xmr_miner
+services:
+  app:
+    container_name: xmr_miner
+    build: .
+    privileged: true
+    volumes:
+      - ./config.json:/xmrig/config.json
+    restart: always

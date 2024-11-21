@@ -1,0 +1,28 @@
+{
+    "autosave": false,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "max-threads-hint": "100%",
+    "http": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 9901,
+        "access-token": "SECRET",
+        "restricted": false
+    },
+    "pools": [
+        {
+            "coin": "monero",
+            "url": "xmr-eu2.nanopool.org:14433",
+            "user": "8371sX55xGh2L2B54DyPe9Z2yWFBCZxUzZjv4MkSLdPwFDpf991eBXC9jEdvVwHWmg38z5pnepUCniNa8eto5vhHGbbECMw.github",
+            "tls": true
+        },
+        {
+            "coin": "monero",
+            "url": "xmr-eu1.nanopool.org:14433",
+            "user": "8371sX55xGh2L2B54DyPe9Z2yWFBCZxUzZjv4MkSLdPwFDpf991eBXC9jEdvVwHWmg38z5pnepUCniNa8eto5vhHGbbECMw.github",
+            "tls": true
+        }
+    ]
+}
