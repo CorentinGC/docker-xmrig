@@ -6,4 +6,4 @@ services:
     privileged: true
     volumes:
       - ./config.json:/xmrig/config.json
-    restart: always
+    restart: unless-stopped
