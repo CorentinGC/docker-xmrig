@@ -2,7 +2,11 @@
     "autosave": false,
     "cpu": {
         "enabled": true,
-        "rx": [-1, -1, -1, -1],
+        "rx": {
+            "intensity": 5,
+            "threads": 4,
+            "affinity": -1
+        }
     },
     "opencl": false,
     "cuda": false,
