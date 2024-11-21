@@ -1,4 +1,4 @@
-# docker-xmrig
+# docker-xmrig (no fees)
 
 # Get Started
 Rename config.json.sample to config.json and edit it to your needs. 
@@ -8,7 +8,7 @@ Default config will mine for me, thank you :)
 
 The container runs as privileged to enable msr kernel module.
 
-Dockerfile will fetch the last released binary for linux-x64, just rebuild image
+Dockerfile will fetch the last released sources, remove the min fees, and build the binary
 
 # Starting miner
 ## As daemon

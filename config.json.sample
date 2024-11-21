@@ -1,5 +1,6 @@
 {
     "autosave": false,
+    "donate-level": 0,
     "cpu": {
         "enabled": true,
         "rx": {
